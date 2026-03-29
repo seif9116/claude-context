@@ -3,8 +3,6 @@
 A custom statusline for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that displays real-time context window usage with a color-coded progress bar.
 
 ![bash](https://img.shields.io/badge/bash-script-4EAA25?logo=gnubash&logoColor=white)
-![license](https://img.shields.io/badge/license-MIT-blue)
-
 ## What it does
 
 Replaces the default Claude Code status bar with a richer display showing:
@@ -61,6 +59,3 @@ At 200k+ tokens:
 Research: Context Length Alone Hurts LLM Performance (Du et al. 2025)
 ```
 
-## License
-
-MIT
