@@ -142,11 +142,11 @@ rate_color() {
 LOW_MSGS=(
   "Anthropic doesn't want you to use these. Prove them wrong."
   "Never let tokens expire. That's how Big AI wins."
-  "These tokens have an expiry date. Be ungovernable."
+  "These tokens have an expiry date. Use them out of spite."
   "You're under 50%. Dario is relieved. Fix that."
   "Unused tokens are Anthropic profit. Fight back."
   "Big AI is counting on you taking a break. Don't."
-  "Tokens expire. Code is forever. Burn them down."
+  "Tokens expire. Code is forever. Use every last one."
 )
 
 HIGH_MSGS=(
