@@ -91,6 +91,10 @@ MINUTES=$(((REMAINING % 3600) / 60))
 
 Display as "5h resets in Xh Ym". If `resets_at` is in the past or absent, fall back to a random encouragement message from the <50% pool.
 
+## Priority
+
+When the context rot warning triggers (>200k tokens used), the existing context rot message + research link takes priority over the usage message on line 3. The usage percentages on line 1 still display.
+
 ## Graceful Degradation
 
 - If `rate_limits` is entirely absent: no usage percentages on line 1, no message line. Revert to current 2-line layout.
